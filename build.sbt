@@ -1,9 +1,9 @@
 name := "webfontloader.scala.js"
 organization := "com.outr"
-version := "1.6.28"
+version := "1.6.28_1-SNAPSHOT"
 
-scalaVersion := "2.12.5"
-crossScalaVersions := List("2.12.5", "2.11.12")
+scalaVersion := "2.13.0"
+crossScalaVersions := List("2.13.0", "2.12.8", "2.11.12")
 scalacOptions += "-P:scalajs:sjsDefinedByDefault"
 
 enablePlugins(ScalaJSPlugin)
