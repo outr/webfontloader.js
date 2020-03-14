@@ -1,12 +1,12 @@
 name := "webfontloader.scala.js"
 organization := "com.outr"
-version := "1.6.28_1"
+version := "1.6.28_2"
 
-scalaVersion := "2.13.0"
-crossScalaVersions := List("2.13.0", "2.12.8", "2.11.12")
-scalacOptions += "-P:scalajs:sjsDefinedByDefault"
+scalaVersion := "2.13.1"
+crossScalaVersions := List("2.13.1", "2.12.8", "2.11.12")
 
 enablePlugins(ScalaJSPlugin)
+enablePlugins(JSDependenciesPlugin)
 
 jsDependencies += ProvidedJS / "webfontloader.js"
 skip in packageJSDependencies := false
